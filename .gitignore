@@ -1,3 +1,25 @@
+# Maven
+target/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Eclipse
+/.classpath
+/.settings/
+/.project
+# (Eclipse's `/bin/` dropped: bin/ is the fleet lifecycle scripts)
+
+# IntelliJ
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.log
+
+# fleet
 .env
 .fleet/
 .fleet-deploy.log
